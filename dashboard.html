@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard | GameRadz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Selamat datang di GameRadz, <span id="username"></span>!</h1>
+    <p>Ini adalah halaman dashboard setelah login.</p>
+    <a href="index.html" onclick="logout()">Logout</a>
+  </div>
+
+  <script>
+    const user = localStorage.getItem("user");
+    if (!user) {
+      window.location.href = "index.html";
+    } else {
+      document.getElementById("username").textContent = user;
+    }
+
+    function logout() {
+      localStorage.removeItem("user");
+    }
+  </script>
+</body>
+</html>
+<img src="logo.png" alt="GameRadz Logo" class="logo" />

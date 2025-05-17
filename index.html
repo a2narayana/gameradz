@@ -74,3 +74,46 @@
 </html>
 
 }
+{
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+}
+{
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | GameRadz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h1>GameRadz Login</h1>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+      <p id="loginMessage"></p>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      if (username === "admin" && password === "gamer123") {
+        localStorage.setItem("user", username);
+        window.location.href = "dashboard.html";
+      } else {
+        document.getElementById("loginMessage").innerText = "Username atau password salah!";
+      }
+    });
+  </script>
+</body>
+</html>
+
+}
+<img src="logo.png" alt="GameRadz Logo" class="logo" />
