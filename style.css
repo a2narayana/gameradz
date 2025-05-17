@@ -1,0 +1,172 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #00ffcc;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #111, #222);
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.hero button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #00ffcc;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.news {
+  padding: 2rem 1rem;
+}
+
+.news .card {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+.news .card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  margin-top: 2rem;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #111;
+}
+
+.login-container {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+}
+
+.login-container h2 {
+  margin-bottom: 1.5rem;
+  color: #00ffcc;
+  text-align: center;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #00ffcc;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#loginMessage {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+    body {
+  background-color: #111;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #00ffcc;
+}
+
+.site-title {
+  font-size: 3rem;
+  color: #00ffcc;
+  margin: 0;
+}
+
+.dotcom {
+  color: #fff;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  color: #999;
+  border-top: 1px solid #333;
+}
+
